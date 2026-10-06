@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "miramusic",
+  "version": "${version}",
+  "name": "Mira Music",
+  "description": "Reproductor de música de YouTube con botón de audífonos, menú con miniatura y mini menú en el juego. Solo lo escucha quien lo usa. Comando: /mira music @a on|off",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "icon": "assets/miramusic/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.miramusic.MiraMusic"],
+    "client": ["com.miramusic.client.MiraMusicClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "esperajuegos": "*"
+  }
+}
